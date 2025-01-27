@@ -165,3 +165,10 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/beb83df1db879041fec5e4a1899c4717.lua"))()
 end    
 })
+
+Tab:AddButton({
+	Name = "Doraemon",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
+end    
+})
