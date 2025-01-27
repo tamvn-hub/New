@@ -19,6 +19,12 @@ local Tab3 = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
+local Tab4 = Window:MakeTab({
+	Name = "Kaitun",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 Tab3:AddButton({
 	Name = "Fix Lag",
 	Callback = function()
