@@ -186,6 +186,13 @@ Tab:AddButton({
 end    
 })
 
+Tab:AddButton({
+	Name = "BlackTrap Hub",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
+end    
+})
+
 Tab4:AddButton({
 	Name = "Simple Hub",
 	Callback = function()
