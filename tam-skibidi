@@ -141,3 +141,13 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
 end    
 })
+
+Tab:AddButton({
+	Name = "Xero Hub",
+	Callback = function()
+        getgenv().Team = "Pirates"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+end    
+})
