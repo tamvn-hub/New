@@ -187,7 +187,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "BlackTrap Hub",
+	Name = "BlackTrap Hub (có key)",
 	Callback = function()
         loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
 end    
