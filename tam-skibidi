@@ -215,7 +215,7 @@ end
 })
 
 Tab4:AddButton({
-	Name = "Cuttay Hub Gạt cần",
+	Name = "Cuttay Gạt cần (cực múp)",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
 end    
