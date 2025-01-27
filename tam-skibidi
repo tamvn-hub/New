@@ -35,6 +35,13 @@ Tab3:AddButton({
 end
 })
 
+Tab3:AddButton({
+	Name = "FlyGuiV3",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end
+})
 
 Tab2:AddButton({
 	Name = "Ghost Hub",
