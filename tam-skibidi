@@ -199,3 +199,10 @@ Tab4:AddButton({
         loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
 end    
 })
+
+Tab4:AddButton({
+	Name = "RiseHub Kaitun",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tamvn-hub/Rise-Hub/refs/heads/main/Rise"))()
+end    
+})
