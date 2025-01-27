@@ -172,3 +172,10 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
 end    
 })
+
+Tab:AddButton({
+	Name = "MinGamingVietSub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"))()
+end    
+})
