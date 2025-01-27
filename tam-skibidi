@@ -185,3 +185,10 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAV"))()
 end    
 })
+
+Tab4:AddButton({
+	Name = "Simple Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tamvn-hub/Simple-hub/refs/heads/main/Simple"))()
+end    
+})
