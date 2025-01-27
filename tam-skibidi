@@ -158,3 +158,10 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
 end    
 })
+
+Tab:AddButton({
+	Name = "Ronix Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/beb83df1db879041fec5e4a1899c4717.lua"))()
+end    
+})
