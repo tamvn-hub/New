@@ -213,3 +213,10 @@ Tab4:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tamvn-hub/Rise-Hub/refs/heads/main/Rise"))()
 end    
 })
+
+Tab4:AddButton({
+	Name = "Cuttay Hub Gạt cần",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
+end    
+})
