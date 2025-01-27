@@ -1,0 +1,128 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
+
+local Window = OrionLib:MakeWindow({Name = "TamVN", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+
+local Tab = Window:MakeTab({
+	Name = "Blox Fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Zombie Attack",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Mod Game",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab3:AddButton({
+	Name = "Fix Lag",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+end
+})
+
+Tab3:AddButton({
+	Name = "Anti Kick",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/brosula123/Anti-afk/main/Bl%C3%B8xzScript"))()
+end
+})
+
+
+Tab2:AddButton({
+	Name = "Ghost Hub",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+        loadstring(game:HttpGet('https://ghost-storage.7m.pl/scripts/ghosthublauncher.lua'))()
+  	end    
+})
+
+Tab2:AddButton({
+	Name = "UnknownHub",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproooolucky/Unknown-Hub-X-Universal-Games/main/Games/Zombie-Attack'))()
+end
+})
+
+Tab2:AddButton({
+	Name = "Tamvnscript",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/tamvn-hub/Test/refs/heads/main/Vipscripts"))()
+end
+})
+
+Tab2:AddButton({
+	Name = "ElysiumFree (Key)",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/cool83birdcarfly02six/ElysiumFree/refs/heads/main/README.md'))()
+end
+})
+
+Tab2:AddButton({
+	Name = "Script như cc",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+     _G.Settings = false
+-- Logs script: https://discord.gg/3kZ7dKbJPe
+
+-- Load the webhook
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/FunctionNil/refs/heads/main/Discord_WebHook"))()
+print("Webhook loaded: https://discord.gg/3kZ7dKbJPe")
+wait(0.1)
+
+-- Define common settings
+_G.farm2 = false -- Auto Farm (true / false)
+_G.groundDistance = 0 -- Auto Farm +/- Up / Down
+_G.dist = 100000 -- Search-Zombie Distance
+_G.HeadSize = 2.5 -- Hitbox size
+_G.autoequip = false -- Auto Equip Tools + Duplicate Guns More Damage OP (true / false)
+_G.AutoGetPowerups = false -- Auto Get powerups (true / false)
+
+-- Load the necessary script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dqtixz/ZXwtccwtwct4/refs/heads/main/hdfdf"))()
+end
+})
+
+Tab:AddButton({
+	Name = "Volcano Hub",
+	Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Omgshit hub",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "w-azure",
+	Callback = function()
+   
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "QuantumOnyx",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
+end    
+})
+
+Tab:AddButton({
+	Name = "SpeedxHub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+end    
+})
