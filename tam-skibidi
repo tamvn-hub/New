@@ -167,7 +167,7 @@ end
 })
 
 Tab:AddButton({
-	Name = "Doraemon",
+	Name = "Doraemon Hub",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
 end    
