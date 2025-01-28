@@ -49,6 +49,13 @@ Tab3:AddButton({
 end
 })
 
+Tab3:AddButton({
+	Name = "Infinite Yield Script",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end    
+})
+
 Tab2:AddButton({
 	Name = "Ghost Hub",
 	Callback = function()
