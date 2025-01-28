@@ -227,3 +227,10 @@ Tab4:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhubreal.lua'))()
 end    
 })
+
+Tab4:AddButton({
+	Name = "RaitoHub Find Fruits",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tamvn-hub/RaitoHub/refs/heads/main/Find-fruits"))()
+end    
+})
